@@ -1,0 +1,14 @@
+localstack
+boto3
+scipy
+pingouin
+angr
+flask
+requests
+atheris
+poetry
+click
+rich
+pyyaml
+matplotlib
+numpy
