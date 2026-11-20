@@ -1,8 +1,7 @@
 # SideKick Artifact
 [![Tested On](https://img.shields.io/badge/Tested%20On-Ubuntu%2020.04%20%7C%20Docker-blue)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-This repository contains the artifacts for the paper **"SideKick: Hybrid Detection of Timing Side-Channels in Serverless Python via Symbolic Solving and Statistical Oracles"** (IEEE Transactions).
+This repository contains the research artifact for **SideKick: Hybrid Detection of Timing Side-Channels in Serverless Python via Symbolic Solving and Statistical Oracles**, a paper in preparation (not yet published).
 
 ## Contents
 - `src/`: Source code for the SideKick fuzzer and oracle.
@@ -11,7 +10,6 @@ This repository contains the artifacts for the paper **"SideKick: Hybrid Detecti
 - `Dockerfile`: Environment definition.
 
 ## Quick Start
-b
 ### 1. Build
 ```bash
 docker build -t sidekick-artifact:v1.0 .
@@ -30,12 +28,13 @@ python -m sidekick.cli run --target examples/fake_lambda.py --duration 600
 ```
 
 ## Citation
-If you use SideKick, please cite:
+The paper has not been published yet. Citation details will be added here once it is. Until then, please cite this repository:
 ```bibtex
-@article{sidekick2025,
-  title={SideKick: Hybrid Detection of Timing Side-Channels in Serverless Python},
-  author={Nanda, Mohit et al.},
-  journal={IEEE Transactions on Software Engineering},
+@misc{sidekick-artifact,
+  title={SideKick: Hybrid Detection of Timing Side-Channels in Serverless Python (research artifact)},
+  author={Nanda, Mohit and others},
+  howpublished={\url{https://github.com/mohitnanda786/sidekick-artifact}},
+  note={Paper in preparation},
   year={2025}
 }
 ```
